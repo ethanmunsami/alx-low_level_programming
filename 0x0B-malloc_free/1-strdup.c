@@ -12,7 +12,7 @@
 
 char *_strdup(char *str)
 {
-	int i = 0; j = 1;
+	int i = 0, j = 1;
 	char *x;
 
 	if (str == NULL)
@@ -30,7 +30,7 @@ char *_strdup(char *str)
 
 	while (i < j)
 	{
-		x[a] = str[i];
+		x[i] = str[i];
 		i++;
 	}
 
